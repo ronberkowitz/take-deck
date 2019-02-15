@@ -1,5 +1,4 @@
 
-
 const serverPort = 5000;
 const serverIp = '127.0.0.1'
 
@@ -14,6 +13,7 @@ document.addEventListener('deviceready', function () {
     };
 
     var game = new Phaser.Game(config);
+
 
     function preload() {
 
